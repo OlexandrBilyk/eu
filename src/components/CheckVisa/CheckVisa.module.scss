@@ -16,7 +16,6 @@
     justify-content: center;
     gap: 5px;
     background-color: transparent;
-    border: none;
 
     font-weight: 700;
 
@@ -71,7 +70,6 @@
 
     transition: 250ms ease-in-out;
     background-color: transparent;
-    border: none;
 
     &:active {
         transform: scale(1.2);

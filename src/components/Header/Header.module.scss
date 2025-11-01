@@ -1,10 +1,13 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6px 20px;
+  padding: 24px 0;
   background: #fff;
   border-bottom: 1px solid #ddd;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .logoSection {
@@ -14,38 +17,39 @@
 }
 
 .flag {
-  width: 40px;
-  height: 26px;
+  height: 50px;
+
 }
 
 .title {
-  font-size: 16px;
+  font-size: 25px;
+  color: #000;
+  max-width: 100px;
 }
 
 .right {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
 }
 
 .lang {
   border: none;
   background: transparent;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .search {
   display: flex;
-  align-items: center;
   border: 1px solid #aaa;
   border-radius: 4px;
   overflow: hidden;
 
   input {
-    border: none;
-    padding: 6px 8px;
-    outline: none;
+    padding: 15px 25px;
+    box-shadow: 0 7px 8px rgba(9, 49, 142, .08), 0 0 22px rgba(9, 49, 142, .04), 0 12px 17px rgba(9, 49, 142, .04), 0 -4px 4px rgba(9, 49, 142, .04);
   }
 
   button {
@@ -53,6 +57,8 @@
     color: #fff;
     border: none;
     padding: 6px 10px;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
 }

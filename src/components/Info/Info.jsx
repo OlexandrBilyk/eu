@@ -5,6 +5,7 @@ import  styles  from './Info.module.scss'
 const Info = () => {
   return (
     <div className={styles.info}>
+        <div className="container">
         <h2 className={styles.infoTitle}>Ознакомьтесь с ЕС</h2>
 
         <ul className={styles.infoItems}>
@@ -26,6 +27,7 @@ const Info = () => {
                 <a className={styles.infoItemTitle} href="https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies_en?prefLang=ru">Учреждения и органы ЕС</a>
             </li>
         </ul>
+        </div>
     </div>
   )
 }

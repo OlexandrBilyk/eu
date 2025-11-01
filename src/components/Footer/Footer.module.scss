@@ -1,0 +1,95 @@
+.footer {
+    padding: 64px 0;
+    background-color: #f3f6fc;
+    box-shadow: 0 3px 5px rgba(9, 49, 142, .04), 0 0 18px rgba(9, 49, 142, .04), 0 6px 10px rgba(9, 49, 142, .04), 0 -4px 4px rgba(9, 49, 142, .04);
+
+    .container {
+        display: flex;
+        gap: 130px;
+    }
+
+}
+
+.footerInfo {
+    max-width: 400px;
+}
+
+.managedBy {
+    margin-top: 20px;
+    color: #171a22;
+    font-size: 18px;
+    width: 325px;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.flag {
+    height: 35px;
+    max-width: 60px;
+}
+
+.title {
+    font-size: 20px;
+    color: #000;
+    max-width: 100px;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    order: 0;
+    width: 424px;
+
+    &:nth-child(1) {
+        order: 1;
+    }
+
+    &:nth-child(2) {
+        order: 3;
+    }
+
+    &:nth-child(3) {
+        order: 2;
+    }
+
+    &:nth-child(4) {
+        order: 4;
+    }
+}
+
+
+.listTitle {
+    font-size: 20px;
+
+    border-bottom: 1px solid #cfdaf5;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.sublist {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.link {
+    font-size: 18px;
+
+    color: #0e47cb;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

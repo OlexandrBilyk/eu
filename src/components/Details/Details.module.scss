@@ -1,0 +1,65 @@
+.detailsSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.detailsHeading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #1a1a1a;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.detailsCard {
+  position: relative;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.detailsAccent {
+  position: absolute;
+  top: -4px;
+  left: 1rem;
+  width: 24px;
+  height: 3px;
+  background-color: #ffd200;
+  border-radius: 4px;
+}
+
+.detailsTitle {
+  display: block;
+  color: #0056b3;
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.detailsText {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

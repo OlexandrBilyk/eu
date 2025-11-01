@@ -1,9 +1,12 @@
-import Header from "./components/Header/Header";
+import {Routes, Route, NavLink} from "react-router-dom"
+import Home from "./pages/Home";
 
-export default function App() {
+const App = () => {
   return (
-    <>
-      <Header></Header>
-    </>
-  );
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
+  )
 }
+
+export default App
